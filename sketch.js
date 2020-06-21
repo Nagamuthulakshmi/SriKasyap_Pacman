@@ -11,7 +11,7 @@ var wall1,wall2,wall3,wall4,wall5,wall6,wall7,wall8,wall9,wall10,wall1,wall12,wa
 var wall15,wall16, wall17,wall18
 
 function preload(){
-foodimg= loadImage("food.gif")
+//foodimg= loadImage("food.gif")
 e1img = loadImage("ye.png")
 e2img = loadImage("re.png")
 e3img = loadImage("me.png")
@@ -111,11 +111,11 @@ k++
   player.scale = 1  
   
   food = createSprite(175,50,10,10)
-  food.addImage(foodimg)
+ // food.addImage(foodimg)
 
   food.scale = 0.5
   food2 = createSprite(400,50,10,10)
-  food2.addImage(foodimg)
+ // food2.addImage(foodimg)
   food2.scale = 0.5
 }
 
